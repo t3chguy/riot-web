@@ -112,7 +112,7 @@ export default class ElectronPlatform extends VectorBasePlatform {
     }
 
     getAppVersion() {
-        return q(electron.remote.app.getVersion());
+        return q('v' + electron.remote.app.getVersion());
     }
 
     pollForUpdate() {
