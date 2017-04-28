@@ -228,3 +228,7 @@ input.mx_UserSettings_phoneNumberField {
     color: $accent-color;
     word-break: break-all;
 }
+
+.mx_UserSettings_webRtcDevices_dropdown {
+    width: auto;
+}
